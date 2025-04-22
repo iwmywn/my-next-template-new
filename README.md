@@ -1,9 +1,9 @@
 ## Getting started
 
-For package management, we use pnpm instead of npm or yarn. You can install it by running:
+For package management, <span style="background-color: red; color:white">we use pnpm instead of npm or yarn</span>. You can install it by running:
 
 ```sh
- npm i -g pnpm
+npm i -g pnpm@10.9.0
 ```
 
 ### 1. Clone the Project
@@ -27,7 +27,7 @@ cp .env.example .env
 ### 4. Run the Project
 
 ```sh
-pnpm run dev
+pnpm dev
 ```
 
 The project will be available at: http://localhost:3000
