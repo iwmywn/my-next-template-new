@@ -1,6 +1,6 @@
 ## Getting started
 
-For package management, <span style="background-color: red; color:white">we use pnpm instead of npm or yarn</span>. You can install it by running:
+For package management, we use pnpm instead of npm or yarn. You can install it by running:
 
 ```bash
 npm i -g pnpm@10.9.0
