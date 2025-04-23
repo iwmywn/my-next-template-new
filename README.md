@@ -2,31 +2,32 @@
 
 For package management, <span style="background-color: red; color:white">we use pnpm instead of npm or yarn</span>. You can install it by running:
 
-```sh
+```bash
 npm i -g pnpm@10.9.0
 ```
 
 ### 1. Clone the Project
 
-```sh
-git clone https://github.com/iwmywn/digital-business-card.git && cd digital-business-card
+```bash
+git clone https://github.com/<owner>/<repo>.git
+cd repo
 ```
 
 ### 2. Install Dependencies
 
-```sh
+```bash
 pnpm i
 ```
 
 ### 3. Setup Environment
 
-```sh
+```bash
 cp .env.example .env
 ```
 
 ### 4. Run the Project
 
-```sh
+```bash
 pnpm dev
 ```
 
